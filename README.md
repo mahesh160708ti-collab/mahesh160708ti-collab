@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Mahesh | Zycora Studio Header" />
+  <img src="./assets/header.svg" width="100%" alt="Mahesh | Zycora Header" />
 </div>
 
 <div align="center">
@@ -11,14 +11,14 @@
 
 <br/>
 
-> **Software Developer & Creator of [Zycora Studio](https://zycora-studio.vercel.app)**  
+> **Software Developer & Creator of [Zycora](https://zycora-studio.vercel.app)**  
 > Focused on building ultra-responsive desktop applications, performance-driven web interfaces, and modern developer tooling.
 
 ---
 
 ### 🚀 What I'm Working On
 
-- 🖥️ **[Zycora Studio](https://zycora-studio.vercel.app)** — Lead creator of a next-generation desktop video editing application engineered for fast multi-format timeline workflows (16:9 widescreen to 9:16 vertical reels).
+- 🖥️ **[Zycora](https://zycora-studio.vercel.app)** — Lead creator of a next-generation desktop video editing application engineered for fast multi-format timeline workflows (16:9 widescreen to 9:16 vertical reels).
 - 📱 **Mobile & Cross-Platform** — Architecting native Android and iOS client sync for mobile video creation.
 - ⚡ **Performance Engineering** — GPU-accelerated video rendering, low-latency playback scrubbing, and offline-first software design.
 - 🌐 **Web Architecture** — Full-stack web development with React, Vite, Tailwind CSS, and global edge deployments on Vercel.
@@ -43,7 +43,7 @@
 
 ### 📌 Featured Repositories
 
-- 🎬 **[Zycora Studio](https://zycora-studio.vercel.app)** — The lightning-fast desktop video editor. 100% watermark-free, offline privacy, and multi-track editing. Windows official release live, Android & iOS editions upcoming.
+- 🎬 **[Zycora](https://zycora-studio.vercel.app)** — The lightning-fast desktop video editor. 100% watermark-free, offline privacy, and multi-track editing. Windows official release live, Android & iOS editions upcoming.
 
 ---
 

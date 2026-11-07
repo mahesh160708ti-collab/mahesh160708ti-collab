@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090e" />
+      <stop offset="50%" stop-color="#0c1220" />
+      <stop offset="100%" stop-color="#07090e" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="35%" stop-color="#3b82f6" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Emblem Glow -->
+    <linearGradient id="emblemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+
+    <!-- Radial Glows -->
+    <radialGradient id="topGlow" cx="20%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="cornerGlow" cx="85%" cy="85%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Pill Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-main { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 34px; font-weight: 800; fill: #ffffff; letter-spacing: -0.5px; }
+    .title-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 34px; font-weight: 800; fill: #38bdf8; letter-spacing: -0.5px; }
+    .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #60a5fa; letter-spacing: 0.5px; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 500; fill: #94a3b8; }
+    .highlight { font-weight: 600; fill: #e2e8f0; }
+    .tag-text { font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 12px; font-weight: 600; fill: #cbd5e1; }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="2" y="2" width="996" height="236" rx="16" fill="url(#bgGradient)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Ambient Glows -->
+  <rect x="2" y="2" width="996" height="236" rx="16" fill="url(#topGlow)" pointer-events="none" />
+  <rect x="2" y="2" width="996" height="236" rx="16" fill="url(#cornerGlow)" pointer-events="none" />
+
+  <!-- Decorative Tech Grid Accent -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <line x1="160" y1="0" x2="160" y2="240" />
+    <line x1="320" y1="0" x2="320" y2="240" />
+    <line x1="480" y1="0" x2="480" y2="240" />
+    <line x1="640" y1="0" x2="640" y2="240" />
+    <line x1="800" y1="0" x2="800" y2="240" />
+    <line x1="0" y1="60" x2="1000" y2="60" />
+    <line x1="0" y1="120" x2="1000" y2="120" />
+    <line x1="0" y1="180" x2="1000" y2="180" />
+  </g>
+
+  <!-- Left Emblem / Logo Squircle -->
+  <g transform="translate(48, 48)">
+    <rect width="72" height="72" rx="18" fill="url(#emblemGrad)" />
+    <!-- Stylized 'Z' Emblem -->
+    <path d="M 22 22 L 50 22 L 22 50 L 50 50" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Subtle Inner Glow -->
+    <rect width="72" height="72" rx="18" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1.5" fill="none" />
+  </g>
+
+  <!-- Main Title & Subtitle -->
+  <g transform="translate(142, 52)">
+    <!-- Role Badge -->
+    <rect x="0" y="0" width="220" height="26" rx="6" fill="#1e293b" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.6" />
+    <circle cx="14" cy="13" r="4" fill="#10b981" />
+    <text x="26" y="17" class="badge-text">SOFTWARE DEVELOPER</text>
+
+    <!-- Main Title -->
+    <text x="0" y="58" class="title-main">Mahesh <tspan class="title-sub">| Zycora Studio</tspan></text>
+
+    <!-- Subtitle -->
+    <text x="0" y="88" class="subtitle">Creator of <tspan class="highlight">Zycora Studio</tspan> • High-performance desktop tools &amp; modern web engineering</text>
+  </g>
+
+  <!-- Tech Tags Footer Bar -->
+  <g transform="translate(48, 172)">
+    <!-- Tag 1 -->
+    <rect x="0" y="0" width="108" height="30" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1" />
+    <text x="54" y="19" text-anchor="middle" class="tag-text">React 19</text>
+
+    <!-- Tag 2 -->
+    <rect x="120" y="0" width="118" height="30" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1" />
+    <text x="179" y="19" text-anchor="middle" class="tag-text">TypeScript</text>
+
+    <!-- Tag 3 -->
+    <rect x="250" y="0" width="128" height="30" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1" />
+    <text x="314" y="19" text-anchor="middle" class="tag-text">Tailwind v4</text>
+
+    <!-- Tag 4 -->
+    <rect x="390" y="0" width="108" height="30" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1" />
+    <text x="444" y="19" text-anchor="middle" class="tag-text">Node.js</text>
+
+    <!-- Tag 5 -->
+    <rect x="510" y="0" width="138" height="30" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1" />
+    <text x="579" y="19" text-anchor="middle" class="tag-text">Desktop Video</text>
+
+    <!-- Tag 6 -->
+    <rect x="660" y="0" width="128" height="30" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1" />
+    <text x="724" y="19" text-anchor="middle" class="tag-text">GPU DirectX</text>
+
+    <!-- Tag 7 -->
+    <rect x="800" y="0" width="104" height="30" rx="8" fill="url(#pillGrad)" stroke="#334155" stroke-width="1" />
+    <text x="852" y="19" text-anchor="middle" class="tag-text">Vercel Edge</text>
+  </g>
+</svg>

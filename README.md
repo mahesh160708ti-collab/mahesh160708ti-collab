@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_colors=07090e,0f172a,1e3a8a,2563eb&height=180&section=header&text=Mahesh%20%7C%20Zycora%20Studio&fontSize=32&fontColor=ffffff&fontAlignY=35&desc=Lead%20Software%20Developer%20%E2%80%A2%20High-Performance%20Desktop%20%26%20Web%20Engineering&descFontSize=15&descAlignY=60&descAlign=50&animation=fadeIn" width="100%" alt="Mahesh Header Banner" />
+  <img src="./assets/header.svg" width="100%" alt="Mahesh | Zycora Studio Header" />
 </div>
 
 <div align="center">

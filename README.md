@@ -37,7 +37,6 @@
 ### 📌 Featured Repositories
 
 - 🎬 **[Zycora Studio](https://zycora-studio.vercel.app)** — The lightning-fast desktop video editor. 100% watermark-free, offline privacy, and multi-track editing.
-- 🤖 **[Discord File Relay](https://github.com/mahesh160708ti-collab/discord-file-relay-bot)** — Real-time file processing and community distribution system.
 
 ---
 
